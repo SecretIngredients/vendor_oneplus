@@ -53,6 +53,18 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "CACertService",
+	owner: "oneplus",
+	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
 }
 
 android_app_import {
